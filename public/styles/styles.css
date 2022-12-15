@@ -1,0 +1,97 @@
+* { 
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.body {
+	background-color: black;
+}
+
+#login {
+	display: none;
+	background-color: black;
+	text-align: center;
+	position: relative;
+	height: 80vh;
+	width: 100vw;
+	font-family: "Georgia";
+	color: white;
+}
+
+#login > h1 {
+	position: relative;
+	top: 15vh;
+	bottom: auto;
+	height: 20 vh;
+	font-weight: bold;
+	font-size: 7.5vh;
+}
+
+#login > #login-button {
+	position: relative;
+	top: 50vh;
+	border: .25vh solid #1DB954;
+	border-radius: 5vh;
+	background-color: #1DB954;
+	padding: 1.5vh 7.5vh 1.5vh 7.5vh;
+	color: white;
+	font-weight: bold;
+	font-size: 1.5vh;
+}
+
+#login > #login-button:link {
+	text-decoration: none;
+}
+
+#loggedin {
+	display: none;
+}
+
+#loggedin-top {
+	background-color: black;
+	text-align: center;
+	position: relative;
+	height: 80vh;
+	width: 100vw;
+	color: white;
+}
+
+#loggedin-top > #text-description {
+	position: relative;
+	top: 25vh;
+}
+
+#loggedin-top > #shuffle-songs {
+	position: relative;
+	top: 45vh;
+	border: .25vh solid #1DB954;
+	border-radius: 5vh;
+	background-color: #1DB954;
+	padding: 1.5vh 7.5vh 1.5vh 7.5vh;
+	color: white;
+	font-weight: bold;
+	font-size: 1.5vh;
+}
+
+#loggedin-top > #shuffle-songs:hover {
+	cursor:pointer;
+}
+
+#loggedin-top > #shuffle-songs-disabled {
+	position: relative;
+	top: 45vh;
+	border: .25vh solid #1DB954;
+	border-radius: 5vh;
+	background-color: #1DB954;
+	padding: 1.5vh 7.5vh 1.5vh 7.5vh;
+	color: white;
+	font-weight: bold;
+	font-size: 1.5vh;
+}
+
+#loggedin-top > #show-links {
+	position: absolute;
+	bottom: 0vh;
+	left: 0vh;
+}
